@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Anunciate\Http\Controllers;
 
 class HolaController extends Controller{
 	public function hola(){

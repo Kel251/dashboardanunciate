@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Anunciate\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\usuarios;
@@ -33,7 +33,7 @@ class BlueController extends Controller
     }
     
     public function store(Request $request) {
-        \App\Users::create([
+        \Anunciate\Users::create([
             'nombre' => $request['nombre'],
             'appat' => $request['appat'],
             'amat' => $request['amat'],

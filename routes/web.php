@@ -43,4 +43,6 @@ Route::name('vistabluesis')->get('vistabluesis', 'BlueController@sistema');
 Route::resource('blue','BlueController');
 
 
-Route::name('dashboard')->get('dashboard', 'BlueController@dashboard');
+//Route::name('dashboard')->get('dashboard', 'BlueController@dashboard');
+
+Route::resource('dashboard','DashboardController');

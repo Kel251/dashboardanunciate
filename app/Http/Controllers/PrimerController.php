@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Anunciate\Http\Controllers;
 
 class PrimerController extends Controller{
 	public function inicio(){

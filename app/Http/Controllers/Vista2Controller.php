@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Anunciate\Http\Controllers;
 
 class Vista2Controller extends Controller{
 	public function index(){
