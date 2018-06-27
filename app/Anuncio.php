@@ -2,24 +2,24 @@
 
 namespace Anunciate;
 
-use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
 
 class Anuncio extends Authenticatable
 {
     use Notifiable;
-      
+
     protected $table = 'det_anuncios';
-    
+
     public $timestamps = false;
 
     /**
-     * The attributes that are mass assignable.
+     * The attributes that are mass assignable. prueba para github
      *
      * @var array
      */
     protected $fillable = [
-        'Anuncio','Descripcion','telefono', 'email', 'precio','Id_anun',
+        'Anuncio', 'Descripcion', 'telefono', 'email', 'precio', 'Id_anun',
     ];
 
     /**
