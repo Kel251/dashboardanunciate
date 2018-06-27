@@ -2,17 +2,17 @@
 
 namespace Anunciate;
 
-use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
 
 class Users extends Authenticatable
 {
     use Notifiable;
-      
+
     protected $table = 'users';
 
     /**
-     * The attributes that are mass assignable.
+     * The attributes that are mass assignable. prueba de modificacion en la rama master
      *
      * @var array
      */
